@@ -28,10 +28,10 @@ class _HomePageState extends State<HomePage> {
           height: 200,
           width: 200,
           decoration: BoxDecoration(
-              color: Colors.grey, borderRadius: BorderRadius.circular(15)),
+              color: Colors.transparent, borderRadius: BorderRadius.circular(15)),
           child: const Center(
             child: Text("Successfully LoggedIn with Phone",
-                style: TextStyle(fontSize: 16, color: Colors.transparent)),
+                style: TextStyle(fontSize: 16, color: Colors.white)),
           ),
         ),
       ),
